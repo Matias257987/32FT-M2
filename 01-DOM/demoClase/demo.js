@@ -1,5 +1,7 @@
 const contenedores = document.querySelectorAll(".contenedor");
 
+alert ("Holaa Mel! ratonea en la peluqueria!!!")
+
 function cambiarColor(event) {
   const elemento = event.target;
 
