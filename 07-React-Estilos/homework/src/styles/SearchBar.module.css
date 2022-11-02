@@ -1,0 +1,16 @@
+#buscar {
+    border-radius: 5px;
+    border-color: rgba(88, 121, 212, 0.55);
+    background-color: rgba(0, 255, 255, 0.495);
+    text-align: center;
+}
+
+#buscar:hover {
+    background-color: rgba(35, 68, 68, 0.37);;
+}
+
+#search {
+    border-radius: 5px;
+    border-color: rgba(88, 121, 212, 0.55);
+    background-color: rgba(0, 255, 255, 0.429);
+}

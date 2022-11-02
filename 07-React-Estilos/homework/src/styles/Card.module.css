@@ -1,0 +1,47 @@
+  body {
+    background-image: url("https://img.freepik.com/foto-gratis/paisaje-nubes-fantastico_1232-490.jpg?w=2000");
+  }
+
+  .container {
+    display: inline-block;
+    background-color: rgba(88, 121, 212, 0.217);
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px rgba(88, 109, 212, 0.267);
+  }
+
+  .container:hover {
+    background-color: rgba(54, 69, 112, 0.247);
+    box-shadow: 4px 4px rgba(44, 54, 101, 0.279);
+  }
+
+  .info {
+    display: flex;  
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 15px;
+  }
+
+  #close {
+    position: relative;
+    float: right;
+    border: none;
+    background-color: rgba(97, 79, 79, 0.059);
+    border-radius: 5px;
+    color: black;
+    margin: 5px;
+  }
+
+  #close:hover {
+    border: none;
+    background-color: rgba(34, 62, 221, 0.338);
+    color:whitesmoke;
+  }
+
+  #name {
+    margin: 10px 30px 10px 30px;
+    padding: 5px;
+    text-decoration: underline;
+    /* border-radius: 10px;
+    box-shadow: 5px 5px rgba(99, 93, 93, 0.5); */
+  }
