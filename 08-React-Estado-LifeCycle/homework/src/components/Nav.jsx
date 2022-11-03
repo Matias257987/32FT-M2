@@ -5,7 +5,13 @@ import './Nav.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
+    <nav>
+      <span>
+        <img src={Logo} alt="logo" />
+        Clima App/ 32C
+      </span>
+      <SearchBar onSearch={onSearch}/>
+    </nav>
   );
 };
 
